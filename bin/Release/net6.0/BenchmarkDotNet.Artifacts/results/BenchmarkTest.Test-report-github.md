@@ -10,8 +10,9 @@ Intel Core i5-10300H CPU 2.50GHz, 1 CPU, 8 logical and 4 physical cores
 ```
 |               Method |       Mean |    Error |   StdDev | Rank |  Gen 0 | Allocated |
 |--------------------- |-----------:|---------:|---------:|-----:|-------:|----------:|
-|    TestingBubbleSort | 3,364.2 ns | 13.61 ns | 12.73 ns |    5 | 0.0305 |     136 B |
-|      TestingHeapSort |   208.1 ns |  0.78 ns |  0.70 ns |    3 | 0.0324 |     136 B |
-| TestingInsertionSort |   262.4 ns |  2.37 ns |  1.98 ns |    4 | 0.0324 |     136 B |
-| TestingSelectionSort |   188.3 ns |  1.14 ns |  1.07 ns |    2 | 0.0324 |     136 B |
-|     TestingQuickSort |   135.0 ns |  1.74 ns |  1.62 ns |    1 | 0.0324 |     136 B |
+|    TestingBubbleSort | 3,967.3 ns | 55.78 ns | 49.45 ns |    6 | 0.0305 |     136 B |
+|      TestingHeapSort |   247.4 ns |  1.93 ns |  1.81 ns |    3 | 0.0324 |     136 B |
+| TestingInsertionSort |   319.8 ns |  6.30 ns |  5.89 ns |    4 | 0.0324 |     136 B |
+| TestingSelectionSort |   223.3 ns |  1.83 ns |  1.71 ns |    2 | 0.0324 |     136 B |
+|     TestingQuickSort |   143.7 ns |  2.29 ns |  2.15 ns |    1 | 0.0324 |     136 B |
+|     TestingRadixSort | 1,377.3 ns | 16.23 ns | 15.18 ns |    5 | 0.0591 |     248 B |

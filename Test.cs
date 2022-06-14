@@ -53,5 +53,14 @@ namespace BenchmarkTest
             int[] array = { 1, 23, 45, 6, 7, 0, 89, 12, -96, 12, 45, 67, 89, 00, 1, 22, 44, 56, 7, 6, 2 };
             ob.quicksort(array,0,array.Length-1);
         }
+
+        [Benchmark]
+        public void TestingRadixSort()
+        {
+            var ob = new TestingSortAlgorithms();
+
+            int[] array = { 1, 23, 45, 6, 7, 0, 89, 12, -96, 12, 45, 67, 89, 00, 1, 22, 44, 56, 7, 6, 2 };
+            ob.RadixSort(array);
+        }
     }
 }
